@@ -80,7 +80,7 @@ class ZoomableGroup extends Component {
     onMoveStart(currentCenter)
   }
   handleTouchStart({ touches }) {
-    if (touches.length > 1) {
+    if (true) {
       this.handleMouseDown(touches[0])
     }
     else {
